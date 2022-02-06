@@ -606,7 +606,8 @@ class Camera:
                physics,
                height=240,
                width=320,
-               camera_id=-1,
+               #camera_id=-1,
+               camera_id=0,
                max_geom=None):
     """Initializes a new `Camera`.
 
