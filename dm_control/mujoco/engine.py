@@ -169,7 +169,8 @@ class Physics(_control.Physics):
       self,
       height=240,
       width=320,
-      camera_id=-1,
+      #camera_id=-1,
+      camera_id=0,
       overlays=(),
       depth=False,
       segmentation=False,
@@ -606,8 +607,7 @@ class Camera:
                physics,
                height=240,
                width=320,
-               #camera_id=-1,
-               camera_id=0,
+               camera_id=-1,
                max_geom=None):
     """Initializes a new `Camera`.
 
