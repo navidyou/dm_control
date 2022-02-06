@@ -337,7 +337,6 @@
       <freejoint name="root"/>
       <light name="light" mode="trackcom" pos="0 0 3"/>
       <camera name="y-axis" mode="trackcom" pos="0 -1.5 0.8" xyaxes="1 0 0 0 0.6 1"/>
-      <camera name="x-axis" mode="trackcom" pos="2 0 0.5" xyaxes="0 1 0 -0.3 0 1"/>
       <geom name="collision_torso" class="nonself_collision_primitive" type="ellipsoid" size="0.2 0.09 0.11" density="200.0" pos="0 0 0" euler="0 10 0"/>
       <body name="L_1" pos="-0.1235 0 0.09287">
         <geom name="L_1" class="bone" pos="0.083094 0 -0.50809" mesh="L_1"/>
